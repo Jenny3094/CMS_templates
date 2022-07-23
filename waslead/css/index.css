@@ -1,0 +1,4 @@
+@import "./reset.css";
+@import "./desktop_device.css";
+@import "./tablet_device.css" screen and (max-width: 1024px);
+@import "./mobile_device.css" screen and (max-width: 768px); ;
