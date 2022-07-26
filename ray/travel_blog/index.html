@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-wrapper">
+                <span> L </span>
+            </div>
+
+           
+            <ul id="links" class="links">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+    
+                <li><a href="#about"> About</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#subscribe">Subscribe</a></li>
+            </ul>
+
+        </nav>
+
+        <section class="intro">
+            <h1>Lava</h1>
+
+            <p>A Human Exploration</p>
+            <span></span>
+
+        </section>
+
+        <section id="about" class="about">
+            <h2>Slow Travelling</h2>
+
+            <h3>A Travel Blog</h3>
+
+            <span></span>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Possimus corrupti voluptate placeat voluptatem! 
+                Quis, fugit. Delectus eum cumque natus minus. 
+                Harum eveniet vitae sapiente consequuntur aspernatur, 
+                nemo incidunt amet facilis!
+            </p>
+        </section>
+
+    </header>
+
+    <main>
+        <section id="articles" class="articles">
+            <h1>Latest Articles</h1>
+
+            <p> Our most recennt posts </p>
+            <span></span>
+
+            <div class="articles-wrapper">
+                <div class="article article1">
+                    <h2>Tunza</h2>
+                    <p>Rugged Port</p>
+                    <span></span>
+                </div>
+                <div class="article article2">
+                    <h2>Timor</h2>
+                    <p>Untouched beaches</p>
+                    <span></span>
+                </div>
+                <div class="article article3">
+                    <h2>Lombok</h2>
+                    <p>Endless Lava</p>
+                    <span></span>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="subscribe" class="subscribe">
+            <h1>Subscribe</h1>
+            <p>Sign up to our newsletter</p>
+            <form action="">
+                <input type="email" name="email" id="email" placeholder="Your Email">
+                <br>
+                <input type="submit" value="SUBMIT">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-nav">
+            <div class="footer-logo">
+                <span> L </span>
+            </div>
+
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#about"> About</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#subscribe">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("links");
+          if (x.className === "links") {
+            x.className += " responsive";
+          } else {
+            x.className = "links";
+          }
+        }
+        </script>
+</body>
+</html>

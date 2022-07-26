@@ -31,10 +31,10 @@ git clone https://github.com/Jenny3094/CMS_templates.git
 - [HTML Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/index.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
-## 👤 Author
+## 👤 Authors
 
 - Github: [Jenny3094](https://github.com/Jenny3094)
-- Twitter: [Chinazor_Akah](https://twitter.com/chinazor_akah)
+- Github: [was-coder](https://github.com/was-coder)
 
 ## Show your support
 
